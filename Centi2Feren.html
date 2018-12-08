@@ -1,0 +1,29 @@
+<html>
+
+<title>DynamicWeb</title>
+  
+  <script>
+  function respond(f)
+  {
+    var a=parseFloat(f.option.value);   
+    f.option1.value=a*1.8+32;
+  }
+  </script>
+
+<h2>Conversion from C to F</h2>
+<body background=bg.jpg>
+<form>
+ <p>Centigrate:<input type="text" 
+        name="option" 
+        size="7">
+ <input type="button"
+        value="Convert"
+        onClick="respond(form)" >
+<p>Ferenhiet:<input type="text" 
+        name="option1" 
+        size="7">
+</body>  
+
+ </form> 
+
+</html>
