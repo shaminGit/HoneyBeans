@@ -1,0 +1,2 @@
+I am adding the new file and pushing it into the remote directory..
+I will first add it into the current repository then commit and then push it.
